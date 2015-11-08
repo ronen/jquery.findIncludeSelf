@@ -1,1 +1,1 @@
-$.fn.findIncludeSelf = function(selector) { return this.find(selector).addBack(selector); }
+jQuery.fn.extend({findIncludeSelf: function(selector) { return this.find(selector).addBack(selector); }});
