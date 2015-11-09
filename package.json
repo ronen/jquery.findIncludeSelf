@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "node-qunit-phantomjs test.html"
+  },
+  "devDependencies": {
+    "node-qunit-phantomjs": "^1.3.0"
+  }
+}

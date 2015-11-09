@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/qunit/qunit/qunit.js"></script>
+        <script src="jquery.findIncludeSelf.js"></script>
+    </head>
+    <body>
+        <div id="qunit-fixture">
+            <div id="subject" class="self both">
+                <div id="child" class="both child"></div>
+            </div>
+        </div>
+        <script>
+test("functionality", function() {
+    findIds = function(klass) {
+        return $("#subject").findIncludeSelf("."+klass).map(function () { return $(this).attr("id"); }).get() };
+    deepEqual(findIds("both"), ["subject", "child"]);
+    deepEqual(findIds("self"), ["subject"]);
+    deepEqual(findIds("child"), ["child"]);
+});
+        </script>
+    </body>
+</html>

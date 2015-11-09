@@ -12,6 +12,13 @@ is shorthand for
 
     $foo.find(selector).addBack(selector)
 
+# Testing
+
+```
+$ bower install
+$ npm install
+$ npm test
+```
 
 # Credits
 
