@@ -1,6 +1,7 @@
 # jQuery.findIncludeSelf
 
-[![GitHub version](https://badge.fury.io/gh/ronen%2Fjquery.findIncludeSelf.png)](http://badge.fury.io/gh/ronen%2FfindIncludeSelf) 
+[![GitHub version](https://badge.fury.io/gh/ronen%2Fjquery.findIncludeSelf.png)](http://badge.fury.io/gh/ronen%2FfindIncludeSelf)
+[![Build Status](https://travis-ci.org/ronen/jquery.findIncludeSelf.svg)](https://travis-ci.org/ronen/jquery.findIncludeSelf)
 
 Trivial jQuery plugin, `$(root).findIncludeSelf(selector)` is the same as `find(selector)` but includes the subject node itself, if it matches the selector.
 
