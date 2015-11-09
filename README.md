@@ -21,6 +21,9 @@ $ npm install
 $ npm test
 ```
 
+# Release Notes
+* O.1.2 - Use https://api.jquery.com/jquery.fn.extend/.  Thanks to [JelteF](https://github.com/JelteF)
+
 # Credits
 
 Taken from the stackoverflow [answer](http://stackoverflow.com/a/17538213/1056941) provided by stackoverflow user [Robert](http://stackoverflow.com/users/149097/robert)

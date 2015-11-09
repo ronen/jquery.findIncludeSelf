@@ -1,6 +1,6 @@
 {
   "name": "jquery.findIncludeSelf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "jQuery plugin findIncludeSelf(selector) is the same as find(selector) but includes the subject node itself if it matches the selector",
   "license": "CC-BY-SA-3.0",
   "homepage": "https://github.com/ronen/jquery.findIncludeSelf",
